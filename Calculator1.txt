@@ -1,0 +1,18 @@
+print("Calculator")
+print("Enter the two numbers ")
+Number_1 = float(input("Enter the first number: "))
+Number_2 = float(input("Enter the second number: "))
+
+print("Operators: +, -, /, *")
+operators = input("operators")
+
+if operators == '+':
+    operators = Number_1 + Number_2
+elif operators == '-':
+    operators = Number_1 - Number_2
+elif operators == '/':
+    operators = Number_1 / Number_2
+elif operators == '*':
+    operators = Number_1 * Number_2
+else:
+    print("Invalid Operator, Try again")                 
